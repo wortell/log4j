@@ -69,3 +69,8 @@ https://www.sekoia.io/en/log4shell-the-defenders-worst-nightmare/
 ## 5. Samples
 
 VX-underground is maintaining a library of samples from malware families that have been seen abusing the log4j cve: https://samples.vx-underground.org/samples/Families/Log4J%20Malware/
+
+## 6. Patches
+
+* Apache LOG4J version 2.16.0
+https://logging.apache.org/log4j/2.x/download.html
