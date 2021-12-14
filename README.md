@@ -63,6 +63,9 @@ https://www.govcert.ch/blog/zero-day-exploit-targeting-popular-java-library-log4
 * Dutch NCSC guidance:
 https://www.ncsc.nl/actueel/nieuws/2021/december/12/kwetsbare-log4j-applicaties-en-te-nemen-stappen
 
+* Log4Shell: the defender’s worst nightmare?
+https://www.sekoia.io/en/log4shell-the-defenders-worst-nightmare/
+
 ## 5. Samples
 
 VX-underground is maintaining a library of samples from malware families that have been seen abusing the log4j cve: https://samples.vx-underground.org/samples/Families/Log4J%20Malware/
