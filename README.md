@@ -29,3 +29,8 @@ https://www.shodan.io/search?query=has_vuln%3ACVE2021-44228
 
 * Tenable plugins:
 https://www.tenable.com/plugins/search?q=cves%3A%28%22CVE-2021-44228%22%29&sort=&page=1
+
+## 2. Indicators of Compromise
+
+* NCC Group Indicators of compromise
+https://research.nccgroup.com/2021/12/12/log4shell-reconnaissance-and-post-exploitation-network-detection/
