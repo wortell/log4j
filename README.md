@@ -74,3 +74,8 @@ VX-underground is maintaining a library of samples from malware families that ha
 
 * Apache LOG4J version 2.16.0
 https://logging.apache.org/log4j/2.x/download.html
+
+## 7. Mitigation Guide
+
+1. Run a scan to check for vulnerable java applications/dependancies using: https://github.com/mergebase/log4j-detector
+2. Run a scan to check for expoit attempts using https://github.com/Neo23x0/log4shell-detector
