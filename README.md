@@ -40,3 +40,20 @@ https://research.nccgroup.com/2021/12/12/log4shell-reconnaissance-and-post-explo
 
 * Nested Log4J exploit strings
 https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words 
+
+## 3. Vulerable Applications
+
+* (dutch) NCSC list of vulnerable applications:
+https://github.com/NCSC-NL/log4shell/blob/main/scanning/README.md
+
+## 4. Information
+
+* Lunasec (Guide to detect and mitigate Log4Shell)
+https://www.lunasec.io/docs/blog/log4j-zero-day-mitigation-guide/
+
+* Govcert.ch Zero Day Exployst targeting popular Java Library Log4j
+https://www.govcert.ch/blog/zero-day-exploit-targeting-popular-java-library-log4j/
+
+* Dutch NCSC guidance:
+https://www.ncsc.nl/actueel/nieuws/2021/december/12/kwetsbare-log4j-applicaties-en-te-nemen-stappen
+
