@@ -8,10 +8,10 @@ Here are a few options to try and find applications that use Log4j and could pot
 * BURP Pro add-in:
 https://gist.github.com/kugg/0d08b6548db249eaffaca1799e0d01d6
 
-* File scanner (obv Powershell, voor Windows):
+* File scanner (obv Powershell, for Windows):
 https://gist.github.com/Skons/0b9bbfbbf37d2707ccf83f3d549a6588
 
-* File Scanner (obv Go, alle platformen)
+* File Scanner (obv Go, all platforms)
 https://github.com/dtact/divd-2021-00038--log4j-scanner
 (Will also disable JNDI, when found!)
 
@@ -35,6 +35,9 @@ https://github.com/lunasec-io/lunasec/releases/tag/v1.0.0-log4shell
 
 * Log Scanner (It checks local log files for indicators of exploitation attempts)
 https://github.com/Neo23x0/log4shell-detector
+
+* Detects log4j versions on your file-system, including deeply recursively nested copies (jars inside jars inside jars). Works on Linux, Windows, and Mac, and everywhere else Java runs, too!
+https://github.com/mergebase/log4j-detector
 
 ## 2. Indicators of Compromise
 
