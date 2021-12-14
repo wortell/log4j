@@ -33,6 +33,9 @@ https://www.tenable.com/plugins/search?q=cves%3A%28%22CVE-2021-44228%22%29&sort=
 * Lunasec Scanner:
 https://github.com/lunasec-io/lunasec/releases/tag/v1.0.0-log4shell 
 
+* Log Scanner (It checks local log files for indicators of exploitation attempts)
+https://github.com/Neo23x0/log4shell-detector
+
 ## 2. Indicators of Compromise
 
 * NCC Group Indicators of compromise
