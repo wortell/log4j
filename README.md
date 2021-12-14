@@ -76,6 +76,6 @@ VX-underground is maintaining a library of samples from malware families that ha
 https://logging.apache.org/log4j/2.x/download.html
 
 ## 7. Mitigation Guide
-1. Identify potential vulnerable devices by using https://github.com/NCSC-NL/log4shell/blob/main/software/README.md
+1. Identify potential vulnerable devices by using https://github.com/NCSC-NL/log4shell/blob/main/software/README.md - This a time consuming task, but you need to do it anyway, so better start quickly!
 2. Run a scan to check for vulnerable java applications/dependancies using: https://github.com/mergebase/log4j-detector
 3. Run a scan to check for expoit attempts using https://github.com/Neo23x0/log4shell-detector
