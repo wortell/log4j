@@ -59,6 +59,8 @@ https://www.microsoft.com/security/blog/2021/12/11/guidance-for-preventing-detec
 * How to detect Log4j with MS Endpoint Manager (Alex Verboon)
 https://www.verboon.info/2021/12/how-to-detect-the-log4shell-vulnerability-cve-2021-44228-with-microsoft-endpoint-configuration-manager/
 
+![anatomy_log4j](https://user-images.githubusercontent.com/16960513/146193236-e405dcc9-c2d6-40d0-b7ff-3d0317cc6afb.png)
+
 ## 5. Samples
 
 VX-underground is maintaining a library of samples from malware families that have been seen abusing the log4j cve: https://samples.vx-underground.org/samples/Families/Log4J%20Malware/
@@ -88,5 +90,9 @@ https://logging.apache.org/log4j/2.x/download.html
  * Jeffrey Appel: Microsoft Defender
 https://jeffreyappel.nl/microsoft-defender-for-endpoint-log4j/
 
- * JeroeN Niesen: reverse engineering
+![tvm](https://user-images.githubusercontent.com/16960513/146193334-6e6198cf-2a06-4950-a681-d9f5db8b7f6e.png)
+
+ * Jeroen Niesen: reverse engineering
  https://www.wortell.nl/en/blogs/cve-2021-44228-log4shell
+  
+![reverse_engineering](https://user-images.githubusercontent.com/16960513/146193357-1d38aad3-b7a3-45a9-9130-8f3880e3c804.png)
