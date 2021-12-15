@@ -1,51 +1,33 @@
 # CVE-2021-44228 a.k.a. LOG4J
 This is a public repository from Wortell containing information, links, files and other items related to CVE-2021-44228.
 
+![log4j-wortell-octo-ninja](https://user-images.githubusercontent.com/24291535/146187309-01aec593-340e-451b-a5f3-219196679855.png)
+
+
 ## 1. Scanning
 
 Here are a few options to try and find applications that use Log4j and could potentially be abused:
 
-* BURP Pro add-in:
-https://gist.github.com/kugg/0d08b6548db249eaffaca1799e0d01d6
-
-* File scanner (obv Powershell, for Windows):
-https://gist.github.com/Skons/0b9bbfbbf37d2707ccf83f3d549a6588
-
-* File Scanner (obv Go, all platforms)
-https://github.com/dtact/divd-2021-00038--log4j-scanner
-(Will also disable JNDI, when found!)
-
-* Vulnerable test app:
-https://github.com/kugg/log4shellverify
-
-* Web/URL scanner:
-https://github.com/zerobs-rvn/hrafna
-
-* Web/URL scanner:
-https://github.com/fullhunt/log4j-scan
-
-* Shodan:
-https://www.shodan.io/search?query=has_vuln%3ACVE2021-44228
-
-* Tenable plugins:
-https://www.tenable.com/plugins/search?q=cves%3A%28%22CVE-2021-44228%22%29&sort=&page=1
-
-* Lunasec Scanner:
-https://github.com/lunasec-io/lunasec/releases/tag/v1.0.0-log4shell 
-
-* Log Scanner (It checks local log files for indicators of exploitation attempts)
-https://github.com/Neo23x0/log4shell-detector
-
-* Detects log4j versions on your file-system, including deeply recursively nested copies (jars inside jars inside jars). Works on Linux, Windows, and Mac, and everywhere else Java runs, too!
-https://github.com/mergebase/log4j-detector
+| Title | Link | Comments |
+| ----- | ---- | ----------- |
+| BURP Pro add-in | https://gist.github.com/kugg/0d08b6548db249eaffaca1799e0d01d6 | | 
+| File scanner (Powershell, for Windows) | https://gist.github.com/Skons/0b9bbfbbf37d2707ccf83f3d549a6588 | |
+| File Scanner (obv Go, all platforms) | https://github.com/dtact/divd-2021-00038--log4j-scanner | Will also disable JNDI, when found! |
+| Vulnerable test app | https://github.com/kugg/log4shellverify | |
+| Web/URL scanner | https://github.com/zerobs-rvn/hrafna | |
+| Web/URL scanner | https://github.com/fullhunt/log4j-scan ||
+| Shodan | https://www.shodan.io/search?query=has_vuln%3ACVE2021-44228 ||
+| Tenable plugins | https://www.tenable.com/plugins/search?q=cves%3A%28%22CVE-2021-44228%22%29&sort=&page=1 | |
+| Lunasec Scanner | https://github.com/lunasec-io/lunasec/releases/tag/v1.0.0-log4shell | |
+| Log Scanner | https://github.com/Neo23x0/log4shell-detector | It checks local log files for indicators of exploitation attempts |
+| log4j-detector | https://github.com/mergebase/log4j-detector |  Detects log4j versions on your file-system, including deeply recursively nested copies (jars inside jars inside jars). Works on Linux, Windows, and Mac, and everywhere else Java runs, too! |
 
 ## 2. Indicators of Compromise
 
-* NCC Group Indicators of compromise
-https://research.nccgroup.com/2021/12/12/log4shell-reconnaissance-and-post-exploitation-network-detection/
-
-* Nested Log4J exploit strings
-https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words 
+| Title | Link |
+| ----- | ---- | 
+| NCC Group Indicators of compromise | https://research.nccgroup.com/2021/12/12/log4shell-reconnaissance-and-post-exploitation-network-detection/ | 
+| Nested Log4J exploit strings | https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words  |
 
 ## 3. Vulerable Applications
 
