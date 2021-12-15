@@ -69,6 +69,9 @@ https://www.sekoia.io/en/log4shell-the-defenders-worst-nightmare/
 * Microsoft: Guidance for preventing, detecting, and hunting for CVE-2021-44228 Log4j 2 exploitation 
 https://www.microsoft.com/security/blog/2021/12/11/guidance-for-preventing-detecting-and-hunting-for-cve-2021-44228-log4j-2-exploitation/
 
+* How to detect Log4j with MS Endpoint Manager (Alex Verboon)
+https://www.verboon.info/2021/12/how-to-detect-the-log4shell-vulnerability-cve-2021-44228-with-microsoft-endpoint-configuration-manager/
+
 ## 5. Samples
 
 VX-underground is maintaining a library of samples from malware families that have been seen abusing the log4j cve: https://samples.vx-underground.org/samples/Families/Log4J%20Malware/
