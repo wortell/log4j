@@ -82,6 +82,8 @@ VX-underground is maintaining a library of samples from malware families that ha
 https://logging.apache.org/log4j/2.x/download.html
 
 ## 7. Mitigation Guide
+**! Imprtant !** Exploits are continously developed. Aways make sure to work with the **latest** version of scanners.
+
 1. Identify potential vulnerable devices by using https://github.com/NCSC-NL/log4shell/blob/main/software/README.md - This a time consuming task, but you need to do it anyway, so better start quickly!
 
 2. Run a scan to check for vulnerable java applications/dependancies using: https://github.com/mergebase/log4j-detector with command `java log4j-detector-2021.12.14.jar c:/` and watch for files that have been classified as vulnerable.
