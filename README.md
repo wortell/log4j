@@ -86,4 +86,12 @@ https://logging.apache.org/log4j/2.x/download.html
 
 ![image](https://user-images.githubusercontent.com/24291535/146076166-4276bcf6-7366-40a9-bf15-f9ace0d35c2e.png)
 
- 
+ ## 8. Wortell blogs
+
+ Here are Wortell specialists blogging about LOG4J:
+
+ * Jeffrey Appel: Microsoft Defender
+ https://jeffreyappel-nl.cdn.ampproject.org/c/s/jeffreyappel.nl/log4j-and-cve-2021-44228-what-can-you-do-with-microsoft-defender-for-endpoint/amp/
+
+ * JeroeN Niesen: reverse engineering
+ https://www.wortell.nl/en/blogs/cve-2021-44228-log4shell
