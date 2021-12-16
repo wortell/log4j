@@ -38,6 +38,8 @@ https://github.com/mergebase/log4j-detector
 https://research.nccgroup.com/2021/12/12/log4shell-reconnaissance-and-post-exploitation-network-detection/
 * Nested Log4J exploit strings
 https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words 
+* Microsoft's Threat Intelligence Center IOC feed
+https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Sample%20Data/Feeds/Log4j_IOC_List.csv
 
 ## 3. Vulerable Applications
 
