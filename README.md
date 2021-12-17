@@ -31,6 +31,8 @@ https://github.com/lunasec-io/lunasec/releases/tag/v1.0.0-log4shell
 https://github.com/Neo23x0/log4shell-detector
 * Detects log4j versions on your file-system, including deeply recursively nested copies (jars inside jars inside jars). Works on Linux, Windows, and Mac, and everywhere else Java runs, too!
 https://github.com/mergebase/log4j-detector
+* Ansible-based scanner 
+https://github.com/robertdebock/ansible-role-cve_2021_44228
 
 ## 2. Indicators of Compromise
 
