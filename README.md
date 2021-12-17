@@ -62,6 +62,8 @@ https://www.sekoia.io/en/log4shell-the-defenders-worst-nightmare/
 https://www.microsoft.com/security/blog/2021/12/11/guidance-for-preventing-detecting-and-hunting-for-cve-2021-44228-log4j-2-exploitation/
 * How to detect Log4j with MS Endpoint Manager (Alex Verboon)
 https://www.verboon.info/2021/12/how-to-detect-the-log4shell-vulnerability-cve-2021-44228-with-microsoft-endpoint-configuration-manager/
+* Attackers now shifting from LDAP to RMI
+https://blogs.juniper.net/en-us/threat-research/log4j-vulnerability-attackers-shift-focus-from-ldap-to-rmi
 
 ![anatomy_log4j](https://user-images.githubusercontent.com/16960513/146193236-e405dcc9-c2d6-40d0-b7ff-3d0317cc6afb.png)
 
