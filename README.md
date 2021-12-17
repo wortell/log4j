@@ -65,7 +65,11 @@ https://www.verboon.info/2021/12/how-to-detect-the-log4shell-vulnerability-cve-2
 
 ## 5. Samples
 
-VX-underground is maintaining a library of samples from malware families that have been seen abusing the log4j cve: https://samples.vx-underground.org/samples/Families/Log4J%20Malware/
+* VX-underground is maintaining a library of samples from malware families that have been seen abusing the log4j cve: https://samples.vx-underground.org/samples/Families/Log4J%20Malware/
+
+* Samples of log4j library versions to help validate log4j scanners / detectors: https://github.com/mergebase/log4j-samples/
+
+* Microsoft Sentinel provides a CVE-2021-44228 Log4Shell Research Lab Environment for testing and learning more about the vulnerability: https://github.com/Cyb3rWard0g/log4jshell-lab
 
 ## 6. Patches
 
@@ -73,7 +77,7 @@ VX-underground is maintaining a library of samples from malware families that ha
 https://logging.apache.org/log4j/2.x/download.html
 
 ## 7. Mitigation Guide
-**! Imprtant !** Exploits are continously developed. Aways make sure to work with the **latest** version of scanners.
+**! IMPORTANT !** Exploits are continously developed. Aways make sure to work with the **latest** version of scanners.
 
 1. Identify potential vulnerable devices by using https://github.com/NCSC-NL/log4shell/blob/main/software/README.md - This a time consuming task, but you need to do it anyway, so better start quickly!
 
