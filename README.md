@@ -42,6 +42,8 @@ https://research.nccgroup.com/2021/12/12/log4shell-reconnaissance-and-post-explo
 https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words 
 * Microsoft's Threat Intelligence Center IOC feed
 https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Sample%20Data/Feeds/Log4j_IOC_List.csv
+* Crowdsec IOC list
+https://gist.github.com/blotus/f87ed46718bfdc634c9081110d243166
 
 ## 3. Vulerable Applications
 
@@ -56,6 +58,8 @@ https://www.lunasec.io/docs/blog/log4j-zero-day-mitigation-guide/
 https://www.govcert.ch/blog/zero-day-exploit-targeting-popular-java-library-log4j/
 * Dutch NCSC guidance:
 https://www.ncsc.nl/actueel/nieuws/2021/december/12/kwetsbare-log4j-applicaties-en-te-nemen-stappen
+* Dutch NCSC advisory:
+https://www.ncsc.nl/actueel/advisory?id=NCSC-2021-1052
 * Log4Shell: the defender’s worst nightmare?
 https://www.sekoia.io/en/log4shell-the-defenders-worst-nightmare/
 * Microsoft: Guidance for preventing, detecting, and hunting for CVE-2021-44228 Log4j 2 exploitation 
@@ -64,6 +68,8 @@ https://www.microsoft.com/security/blog/2021/12/11/guidance-for-preventing-detec
 https://www.verboon.info/2021/12/how-to-detect-the-log4shell-vulnerability-cve-2021-44228-with-microsoft-endpoint-configuration-manager/
 * Attackers now shifting from LDAP to RMI
 https://blogs.juniper.net/en-us/threat-research/log4j-vulnerability-attackers-shift-focus-from-ldap-to-rmi
+* Conti Becomes The First Sophisticated Crimeware Group Weaponizing Log4j2
+https://www.advintel.io/post/ransomware-advisory-log4shell-exploitation-for-initial-access-lateral-movement
 
 ![anatomy_log4j](https://user-images.githubusercontent.com/16960513/146193236-e405dcc9-c2d6-40d0-b7ff-3d0317cc6afb.png)
 
