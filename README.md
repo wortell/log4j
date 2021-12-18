@@ -1,6 +1,10 @@
 # CVE-2021-44228 a.k.a. LOG4J
 This is a public repository from Wortell containing information, links, files and other items related to CVE-2021-44228.
 
+Due to vulnerabilities in log4j **2.16.0** it is now recommended to patch to version **2.17.0**
+
+---
+
 ![log4j-wortell-octo-ninja](https://user-images.githubusercontent.com/24291535/146188101-431b057d-43ef-4a75-8aba-f03e50e87d8a.png)
 
 
@@ -83,15 +87,26 @@ https://www.advintel.io/post/ransomware-advisory-log4shell-exploitation-for-init
 
 ## 6. Patches
 
-* Apache LOG4J version 2.16.0
+
+* Apache LOG4J version 2.17.0
 https://logging.apache.org/log4j/2.x/download.html
 
 ## 7. Mitigation Guide
-**! IMPORTANT !** Exploits are continously developed. Aways make sure to work with the **latest** version of scanners.
+**! IMPORTANT !** Exploits are continously developed. Aways make sure to work with the **latest** version of scanners. It is verified that scanners used below take into account that version **2.17.0** of log4j is recommended. 
 
 1. Identify potential vulnerable devices by using https://github.com/NCSC-NL/log4shell/blob/main/software/README.md - This a time consuming task, but you need to do it anyway, so better start quickly!
 
 2. Run a scan to check for vulnerable java applications/dependancies using: https://github.com/mergebase/log4j-detector with command `java log4j-detector-2021.12.14.jar c:/` and watch for files that have been classified as vulnerable.
+
+Depending on the version of the Log4J library found, the following classifications will be done:
+
+| Version  | Classification |
+| -------- | -------------- |
+| 2.12.2   | Safe           |
+| 2.17.0   | Safe           |
+| 2.16.0   | Okay           |
+| 2.15.0   | Okay           |
+| < 2.15.0 | Vulnerable     |
 
 ![image](https://user-images.githubusercontent.com/24291535/146075945-037eb767-afd8-4612-8284-49f16b80b8b5.png)
 
