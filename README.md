@@ -3,6 +3,13 @@ This is a public repository from Wortell containing information, links, files an
 
 Due to vulnerabilities in log4j **2.16.0** it is now recommended to patch to version **2.17.0**
 
+## Knows CVEs
+| CVE            | Score | Description    |
+| -------------- | ----- | -------------- |
+| CVE-2021-44228 | 10.0  | A remote code execution vulnerability affecting Log4j versions from 2.0-beta9 to 2.14.1 (Fixed in version 2.15.0)          |
+| CVE-2021-45046 | 9.0   | An information leak and remote code execution vulnerability affecting Log4j versions from 2.0-beta9 to 2.15.0, excluding 2.12.2 (Fixed in version 2.16.0)           |
+| CVE-2021-45105 | 7.5   | A denial-of-service vulnerability affecting Log4j versions from 2.0-beta9 to 2.16.0 (Fixed in version 2.17.0)          |
+
 ---
 
 ![log4j-wortell-octo-ninja](https://user-images.githubusercontent.com/24291535/146188101-431b057d-43ef-4a75-8aba-f03e50e87d8a.png)
