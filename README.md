@@ -59,7 +59,7 @@ https://gist.github.com/blotus/f87ed46718bfdc634c9081110d243166
 ## 3. Vulerable Applications
 
 * (dutch) NCSC list of vulnerable applications:
-https://github.com/NCSC-NL/log4shell/blob/main/scanning/README.md
+https://github.com/NCSC-NL/log4shell/blob/main/software/README.md
 
 ## 4. Information
 
