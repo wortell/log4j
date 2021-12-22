@@ -56,6 +56,8 @@ https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Sample%20Data/Feed
 * Crowdsec IOC list
 https://gist.github.com/blotus/f87ed46718bfdc634c9081110d243166
 
+Florian Roth also posted a great YARA rule: https://github.com/Neo23x0/signature-base/blob/master/yara/expl_log4j_cve_2021_44228.yar
+
 ## 3. Vulerable Applications
 
 * (dutch) NCSC list of vulnerable applications:
