@@ -9,7 +9,8 @@ Due to vulnerabilities in log4j **2.17.0** it is now recommended to patch to ver
 | CVE-2021-44228 | 10.0  | A remote code execution vulnerability affecting Log4j versions from 2.0-beta9 to 2.14.1 (Fixed in version 2.15.0)          |
 | CVE-2021-45046 | 9.0   | An information leak and remote code execution vulnerability affecting Log4j versions from 2.0-beta9 to 2.15.0, excluding 2.12.2 (Fixed in version 2.16.0)           |
 | CVE-2021-45105 | 7.5   | A denial-of-service vulnerability affecting Log4j versions from 2.0-beta9 to 2.16.0 (Fixed in version 2.17.0)          |
-| CVE-2021-44832 | 6.6   | Vulnerable to a remote code execution (RCE) attack where an attacker with permission to modify the logging configuration file         |
+| CVE-2021-44832 | 6.6   | A Remote code execution vulnerability affecting Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases 2.3.2 and 2.12.4) |
+
 
 ---
 
@@ -107,6 +108,15 @@ https://logging.apache.org/log4j/2.x/download.html
 1. Identify potential vulnerable devices by using https://github.com/NCSC-NL/log4shell/blob/main/software/README.md - This a time consuming task, but you need to do it anyway, so better start quickly!
 
 2. Run a scan to check for vulnerable java applications/dependancies using: https://github.com/dtact/divd-2021-00038--log4j-scanner with command `divd-2021-00038--log4j-scanner.exe {target-path}` and watch for files that have been classified as vulnerable.
+
+| Version  | Classification |
+| -------- | -------------- |
+| 2.12.4   | Safe           |
+| 2.17.1   | Safe           |
+| 2.3.2    | Safe
+| 2.16.0   | Okay           |
+| 2.15.0   | Okay           |
+| < 2.15.0 | Vulnerable     |
 
 3. Run a scan to check for expoit attempts using https://github.com/Neo23x0/log4shell-detector `python3 log4shell-detector.py -p c:\` and watch for exploitation attempts.
 
