@@ -1,7 +1,7 @@
 # CVE-2021-44228 a.k.a. LOG4J
-This is a public repository from Wortell containing information, links, files and other items related to CVE-2021-44228.
+This is a public repository from Wortell containing information, links, files and other items related to vulnerabilities related to Log4j
 
-Due to vulnerabilities in log4j **2.16.0** it is now recommended to patch to version **2.17.0**
+Due to vulnerabilities in log4j **2.17.0** it is now recommended to patch to version **2.17.1**
 
 ## Knows CVEs
 | CVE            | Score | Description    |
@@ -10,6 +10,7 @@ Due to vulnerabilities in log4j **2.16.0** it is now recommended to patch to ver
 | CVE-2021-45046 | 9.0   | An information leak and remote code execution vulnerability affecting Log4j versions from 2.0-beta9 to 2.15.0, excluding 2.12.2 (Fixed in version 2.16.0)           |
 | CVE-2021-45105 | 7.5   | A denial-of-service vulnerability affecting Log4j versions from 2.0-beta9 to 2.16.0 (Fixed in version 2.17.0)          |
 | CVE-2021-44832 | 6.6   | A Remote code execution vulnerability affecting Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases 2.3.2 and 2.12.4) |
+
 
 ---
 
@@ -98,17 +99,15 @@ https://www.advintel.io/post/ransomware-advisory-log4shell-exploitation-for-init
 ## 6. Patches
 
 
-* Apache LOG4J version 2.17.0
+* Apache LOG4J version 2.17.1
 https://logging.apache.org/log4j/2.x/download.html
 
 ## 7. Mitigation Guide
-**! IMPORTANT !** Exploits are continously developed. Aways make sure to work with the **latest** version of scanners. It is verified that scanners used below take into account that version **2.17.0** of log4j is recommended. 
+**! IMPORTANT !** Exploits are continously developed. Aways make sure to work with the **latest** version of scanners. It is verified that scanners used below take into account that version **2.17.1** of log4j is recommended. 
 
 1. Identify potential vulnerable devices by using https://github.com/NCSC-NL/log4shell/blob/main/software/README.md - This a time consuming task, but you need to do it anyway, so better start quickly!
 
-2. Run a scan to check for vulnerable java applications/dependancies using: https://github.com/mergebase/log4j-detector with command `java -jar log4j-detector-2021.12.14.jar c:/ > C:\log4j\outputc.txt` and watch for files that have been classified as vulnerable.
-
-Depending on the version of the Log4J library found, the following classifications will be done:
+2. Run a scan to check for vulnerable java applications/dependancies using: https://github.com/dtact/divd-2021-00038--log4j-scanner with command `divd-2021-00038--log4j-scanner.exe {target-path}` and watch for files that have been classified as vulnerable.
 
 | Version  | Classification |
 | -------- | -------------- |
@@ -119,11 +118,7 @@ Depending on the version of the Log4J library found, the following classificatio
 | 2.15.0   | Okay           |
 | < 2.15.0 | Vulnerable     |
 
-![image](https://user-images.githubusercontent.com/24291535/146075945-037eb767-afd8-4612-8284-49f16b80b8b5.png)
-
 3. Run a scan to check for expoit attempts using https://github.com/Neo23x0/log4shell-detector `python3 log4shell-detector.py -p c:\` and watch for exploitation attempts.
-
-![image](https://user-images.githubusercontent.com/24291535/146076166-4276bcf6-7366-40a9-bf15-f9ace0d35c2e.png)
 
  ## 8. Wortell blogs
 
