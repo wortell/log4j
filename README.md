@@ -9,6 +9,7 @@ Due to vulnerabilities in log4j **2.16.0** it is now recommended to patch to ver
 | CVE-2021-44228 | 10.0  | A remote code execution vulnerability affecting Log4j versions from 2.0-beta9 to 2.14.1 (Fixed in version 2.15.0)          |
 | CVE-2021-45046 | 9.0   | An information leak and remote code execution vulnerability affecting Log4j versions from 2.0-beta9 to 2.15.0, excluding 2.12.2 (Fixed in version 2.16.0)           |
 | CVE-2021-45105 | 7.5   | A denial-of-service vulnerability affecting Log4j versions from 2.0-beta9 to 2.16.0 (Fixed in version 2.17.0)          |
+| CVE-2021-44832 | 6.6   | A Remote code execution vulnerability affecting Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases 2.3.2 and 2.12.4) |
 
 ---
 
@@ -111,8 +112,9 @@ Depending on the version of the Log4J library found, the following classificatio
 
 | Version  | Classification |
 | -------- | -------------- |
-| 2.12.2   | Safe           |
-| 2.17.0   | Safe           |
+| 2.12.4   | Safe           |
+| 2.17.1   | Safe           |
+| 2.3.2    | Safe
 | 2.16.0   | Okay           |
 | 2.15.0   | Okay           |
 | < 2.15.0 | Vulnerable     |
