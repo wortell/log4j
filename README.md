@@ -1,7 +1,7 @@
 # CVE-2021-44228 a.k.a. LOG4J
-This is a public repository from Wortell containing information, links, files and other items related to CVE-2021-44228.
+This is a public repository from Wortell containing information, links, files and other items related to vulnerabilities related to Log4j
 
-Due to vulnerabilities in log4j **2.16.0** it is now recommended to patch to version **2.17.0**
+Due to vulnerabilities in log4j **2.17.0** it is now recommended to patch to version **2.17.1**
 
 ## Knows CVEs
 | CVE            | Score | Description    |
@@ -98,11 +98,11 @@ https://www.advintel.io/post/ransomware-advisory-log4shell-exploitation-for-init
 ## 6. Patches
 
 
-* Apache LOG4J version 2.17.0
+* Apache LOG4J version 2.17.1
 https://logging.apache.org/log4j/2.x/download.html
 
 ## 7. Mitigation Guide
-**! IMPORTANT !** Exploits are continously developed. Aways make sure to work with the **latest** version of scanners. It is verified that scanners used below take into account that version **2.17.0** of log4j is recommended. 
+**! IMPORTANT !** Exploits are continously developed. Aways make sure to work with the **latest** version of scanners. It is verified that scanners used below take into account that version **2.17.1** of log4j is recommended. 
 
 1. Identify potential vulnerable devices by using https://github.com/NCSC-NL/log4shell/blob/main/software/README.md - This a time consuming task, but you need to do it anyway, so better start quickly!
 
